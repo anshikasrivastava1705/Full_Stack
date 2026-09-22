@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2> We're learning forms today </h2>
-<form>
+<form action="/register" method="post">
     <label for="Name"> Name:</label>
     <input type="text" name="Name" placeholder="Enter your name" id="Name" required minlength="2" maxlength="50">
     <br>
@@ -23,6 +23,10 @@
     <label for="Email"> Email:</label>
     <input type="email" name="Email" placeholder="Enter your email" id="Email" required maxlength="100">
     <br>
+    <br>
+    <label for="Password"> Password:</label>
+    <input type="password" name="Password" placeholder="Enter your password" id="Password" required minlength="8" maxlength="20">
+    <br>    
     <br>
     <label for="DOB"> Date of Birth:</label>
     <input type="date" name="DOB" placeholder="Enter your date of birth" id="DOB">
