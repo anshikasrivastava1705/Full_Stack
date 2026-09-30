@@ -1,0 +1,18 @@
+.item-1 {
+    margin: 40px auto;
+    border: 5px solid black;
+    padding: 40px;
+    background-color: rgb(138, 78, 198);
+    width: 200px;
+    height: 100px;
+}
+
+.item-2 {
+    margin: 40px auto;
+    border: 5px solid black;
+    padding: 40px;
+    background-color: rgb(138, 78, 198);
+    width: 290px;
+    height: 190px;
+    box-sizing: border-box;
+}
