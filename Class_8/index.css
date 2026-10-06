@@ -15,11 +15,10 @@
 }
 
 #opacity {
-    height: 90px;
-    background-color: rebeccapurple;
-    color: white;
+    height: 85px;
+    background-color: rgba(139, 26, 158, 0.5);
+    color: black;
     padding: 20px;
-    opacity: 0.5;
     font-size: xx-large ;
     display: flex;
     justify-content: center;
