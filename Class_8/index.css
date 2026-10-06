@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#image {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9rCBGOGkf7RKqUfp9RuuF-9dMv-kGNf7R59OKCMQgw&s=10);
+    background-size: contain;
+    background-repeat:repeat;
+    background-position: center;
+}
+
+#opacity {
+    height: 90px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 20px;
+    opacity: 0.5;
+    font-size: xx-large ;
+    display: flex;
+    justify-content: center;
+}
