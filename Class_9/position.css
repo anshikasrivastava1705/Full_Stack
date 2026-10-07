@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: bisque;
+}
+
+.item-1 {
+    position: relative;
+    left: 25px;
+    top: 25px;
+    background-color: lightcoral;
+    z-index: 1;
+    opacity: 75%;
+}
+
+.item-2 {
+    position: absolute;
+    left: 50% ;
+    top: 50% ;
+    background-color:lightpink;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    opacity: 75%;
+}
+
+.item-3 {
+    position: fixed;
+    left: 50% ;
+    top: 50% ;
+    background-color:lightblue;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    opacity: 75%;
+}
